@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="stylesheet" href="stylesheet/responsive.css">
+    <title>number Guesser</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-5 pt-5">بازی حدس اعداد</h1>
+        <br>
+        <div id="game" class="card text-center">
+           <div class="card-body">
+            <p>بین اعداد   <span class="min-num">1</span> تا  <span class="max-num">10</span> انتخاب کنید</p>
+            <input type="number" class="form-control" id="guess-input" placeholder="عدد مورد نظر را انتخاب کنید">
+            <input type="submit" class="btn btn-outline-danger mt-4" value="انتخاب" id="guess-btn" style="font-size: 13px;">
+            <p class="message"></p>
+           </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

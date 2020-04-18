@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0.91),rgba(12, 223, 96, 0.91));
+    height: 92vh;
+}
+h1{
+    font-size: 51px;
+    color: #010642;
+}
+#guess-input{
+    border: none;
+    border-bottom: 1px solid #a7a7a7;
+    border-radius: 0;
+}
+#guess-input:hover{
+    border-bottom: 1px solid #000;
+}
+#guess-input:focus{
+    box-shadow: none;
+}
+#guess-btn:focus{
+    box-shadow: none;
+}
+p.message{
+    margin-top: 2rem;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.min-num,.max-num{
+    font-weight: 700;
+    color: rgb(55, 68, 255);
+    padding: 0 3px;
+}
